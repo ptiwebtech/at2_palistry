@@ -1,0 +1,236 @@
+/* Custom CSS */
+
+// * { color: red }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+div.palistory_board_member a {
+  color: #2e2e2e;
+  font-weight: 600;
+  font-family: "gf_Young_Serif variant0", Tofu;
+}
+
+@font-face {
+  font-family: 'Glancyr';
+  src: url('fonts/otf/glancyr-glancyr-bold-700.otf') format('opentype');
+}
+
+h1, h2, h3 {
+  font-family: 'Glancyr';
+}	
+
+header#masthead {
+  display: block;
+  height: 3em;
+}
+
+header#masthead div#rid-header-first div#block-at-palistry-branding,
+header#masthead div#rid-header-first div#block-at-palistry-branding img.site-branding__logo-img {
+  height: 40px;
+  margin-left: 30px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.pr-navbar,
+.pr-footer__footer {
+  background-color: #2e2e2e;
+}
+
+body.path-frontpage div#content-prefix div.l-rw  {
+  background-image: url("/sites/default/files/public_images/2025-03/Palistory-banner-01.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  // url("/sites/default/files/public_images/2025-03/hungry_gazan_children-01.jpg");
+}
+
+body.path-frontpage article.node--type-about-palistory.node--promoted,
+body.path-frontpage article.node--type-about-palistory.node--promoted span.field-name-title {
+  color: white;
+  background-color: transparent;
+  // background-color: rgba(255, 0, 0, 0.4);
+}
+
+div#palistory_merchandise_copy p {
+  color: #ffffff;
+}
+
+div.views-field-field-embed-video {
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+div.palistory-tellers div.views-field-field-embed-video div.field-content p, 
+div.palistory-tellers div.views-field-field-embed-video div.field-content span.story-teller-name { 
+  margin: 1em 1em 1em 1em;
+}
+
+#iframe-field_embed_video-9,
+#iframe-field_embed_video-10,
+#iframe-field_embed_video-11,
+#iframe-field_embed_video-12,
+#iframe-field_embed_video-13,
+#iframe-field_embed_video-14 {
+  height: 200px;
+}
+
+#iframe-field_embed_video-9 -> body.vp-center,
+#iframe-field_embed_video-10 -> body.vp-center,
+#iframe-field_embed_video-11 -> body.vp-center,
+#iframe-field_embed_video-12 -> body.vp-center,
+#iframe-field_embed_video-13 -> body.vp-center,
+#iframe-field_embed_video-14 -> body.vp-center {
+  align-items: baseline;
+}
+
+div.views-field-field-embed-video div.views-field-body {
+  
+}
+
+article.node--promoted .field-name-title,
+div.views-field-field-embed-video h3.iframe_title {
+  display: none;
+}
+
+div.palistory-tellers div.views-col.col-1,
+div.palistory-tellers div.views-col.col-2,
+div.palistory-tellers div.views-col.col-3 {
+  border-radius: 25px;
+  background-color: #b8b8b8;
+  margin: 12px;
+}
+
+h1.page__title,
+h1.node__title,
+span.field-name-title,
+span.story-teller-name,
+article.node h1.node__title,
+div.palistory_tellers p,
+div.palistory-tellers div.view-header h2,
+div.palistory-tellers div.view-header h3,
+div.palistory_board_member a,
+div#block-views-block-0-palistory-board-block-1 h3,
+div#block-views-block-0-palistory-tellers-02-block-1 h2,
+article.node--type-story-teller-video h1.node__title,
+h2#block-palistoryisdedicated-title,
+h2.node__title a.node__title-link span.field-name-title,
+h3.card-title a.node__title-link span.field-name-title,
+div.views-field-field-embed-video div.views-field-body a,
+div.card-group h1.node__title span.field-name-title {
+  font-family: "gf_Young_Serif variant0", Tofu;
+  font-weight: 600;
+}
+
+div.palistory-tellers div.view-header {
+  text-align: center;
+}
+
+.pr-navbar, 
+div#navbar div.l-rw,
+footer#footer,
+div#rid-footer {
+  background-color: #000000;
+  // background-color: #2e2e2e;
+}
+
+div.card-group div.field-name--field-card-title h3.field__label,
+div.field-node--field-card-img h3.field__label {
+  display: none;
+}
+
+a.site-branding__name-link,
+li.node-readmore a.node-readmore__link,
+div.field-node--field-card-title {
+  display: none;
+}
+
+span.field-name-title {
+  color: #2e2e2e;
+}
+
+article.node--type-story-teller-video, 
+main#block-at-palistry-content div.card-group article.node--type-story-teller-video,
+div#block-views-block-0-palistory-board-block-1 div.views.col,
+div.card-group article.node--type-interviews {
+  background-color: #e9e9e9;
+  -webkit-box-shadow: 0 3px 4px 0 rgba(223,0,2,0.1);
+  // box-shadow: rgba(233, 0, 2, 0.4) 5px 5px, rgba(233, 0, 2, 0.3) 10px 10px, rgba(233, 0, 2, 0.2) 15px 15px, rgba(233, 0, 2, 0.1) 20px 20px, rgba(233, 0, 2, 0.05) 25px 25px;
+}
+// box-shadow: rgba(233, 0, 2, 0.4) 5px 5px, rgba(233, 0, 2, 0.3) 10px 10px, rgba(233, 0, 2, 0.2) 15px 15px, rgba(233, 0, 2, 0.1) 20px 20px, rgba(233, 0, 2, 0.05) 25px 25px;
+
+nav#block-at-palistry-main-menu span.menu__link--wrapper {
+  background-color: #3e3e3e;
+}
+
+.ms-dropmenu .rm-block__content .menu-level-1 > li > span > .menu__link.is-active, .ms-horizontal .rm-block__content .menu-level-1 > li > span > .menu__link.is-active {
+  color: #ffffff;
+  background-color: #e20002;
+}
+
+div.field-formatter-glightbox-media-remote-video img.image-style-thumbnail {
+  width: 85%;
+}
+
+div.field-formatter-glightbox-media-remote-video a.glightbox {
+  width: 85%;
+}
+
+div#block-merchandisepurchase {
+//  float: left;
+  width: 48%;
+  @include clearfix;
+}
+
+div#palistory_merchandise {
+  border: 1;
+  display: block;
+  margin: auto;
+}
+
+div.views-col {
+  width: inherit !important;
+}
+
+// footer div#block-mainnavigation div.block-menu__content {
+// footer #block-mainnavigation > div:nth-child(1) > div:nth-child(3) {	
+
+ul.menu-name--main,
+div.l-footer ul.menu-name--main,
+div#block-donatenowbutton img,
+footer ul.menu-name--main {
+  display: flex;
+  justify-content: center;
+}
+
+ul.menu-name--main li {
+  align-items: center;
+}
+
+#purchase_kuffiyeh,
+div#purchase_kuffiyeh:before,
+div#rid-content-suffix -> div#block-purchaseakuffieyh -> div#purchase_kuffiyeh {
+  background-image: url("https://dev.palistory.org/sites/default/files/public_images/2025-03/Palistory-banner-02.png");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.l-content-suffix #content-suffix #purchase_kuffiyeh p {
+    color: white;
+}
+nav#block-at-palistry-main-menu {
+    display:block !important;
+    float:right !important;
+}
+body nav#block-at-palistry-main-menu {
+    float: right !important;
+    background: lime !important; /* test visibility */
+}
+

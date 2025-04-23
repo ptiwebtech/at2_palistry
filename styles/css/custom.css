@@ -1,0 +1,17 @@
+/**
+ * Custom CSS
+ * Use this file to override styles if you feel uncomfortable editing
+ * component stylesheets.
+ ============================================================================ */
+
+// .text-palistory-flag-red
+// .text-palistory-flag-white
+// .text-palistory-flag-black
+
+.pr-navbar,
+footer#footer,
+div#rid-navbar,
+.pr-footer__footer {
+  background-color: #2e2e2e;
+}
+
